@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB96F30F1ACC91F800A60C80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB96F30E1ACC91F800A60C80 /* main.m */; };
+		EB96F3121ACC91F800A60C80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB96F3111ACC91F800A60C80 /* AppDelegate.m */; };
+		EB96F3151ACC91F800A60C80 /* RottenMangos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB96F3131ACC91F800A60C80 /* RottenMangos.xcdatamodeld */; };
+		EB96F3181ACC91F800A60C80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB96F3171ACC91F800A60C80 /* ViewController.m */; };
+		EB96F31B1ACC91F800A60C80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB96F3191ACC91F800A60C80 /* Main.storyboard */; };
+		EB96F31D1ACC91F800A60C80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB96F31C1ACC91F800A60C80 /* Images.xcassets */; };
+		EB96F3201ACC91F800A60C80 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB96F31E1ACC91F800A60C80 /* LaunchScreen.xib */; };
+		EB96F32C1ACC91F800A60C80 /* RottenMangosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB96F32B1ACC91F800A60C80 /* RottenMangosTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB96F3261ACC91F800A60C80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB96F3011ACC91F700A60C80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB96F3081ACC91F700A60C80;
+			remoteInfo = RottenMangos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB96F3091ACC91F700A60C80 /* RottenMangos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RottenMangos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB96F30D1ACC91F800A60C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB96F30E1ACC91F800A60C80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB96F3101ACC91F800A60C80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB96F3111ACC91F800A60C80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB96F3141ACC91F800A60C80 /* RottenMangos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RottenMangos.xcdatamodel; sourceTree = "<group>"; };
+		EB96F3161ACC91F800A60C80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB96F3171ACC91F800A60C80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB96F31A1ACC91F800A60C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB96F31C1ACC91F800A60C80 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB96F31F1ACC91F800A60C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EB96F3251ACC91F800A60C80 /* RottenMangosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RottenMangosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB96F32A1ACC91F800A60C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB96F32B1ACC91F800A60C80 /* RottenMangosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RottenMangosTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB96F3061ACC91F700A60C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB96F3221ACC91F800A60C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB96F3001ACC91F700A60C80 = {
+			isa = PBXGroup;
+			children = (
+				EB96F30B1ACC91F700A60C80 /* RottenMangos */,
+				EB96F3281ACC91F800A60C80 /* RottenMangosTests */,
+				EB96F30A1ACC91F700A60C80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB96F30A1ACC91F700A60C80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB96F3091ACC91F700A60C80 /* RottenMangos.app */,
+				EB96F3251ACC91F800A60C80 /* RottenMangosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB96F30B1ACC91F700A60C80 /* RottenMangos */ = {
+			isa = PBXGroup;
+			children = (
+				EB96F3101ACC91F800A60C80 /* AppDelegate.h */,
+				EB96F3111ACC91F800A60C80 /* AppDelegate.m */,
+				EB96F3161ACC91F800A60C80 /* ViewController.h */,
+				EB96F3171ACC91F800A60C80 /* ViewController.m */,
+				EB96F3191ACC91F800A60C80 /* Main.storyboard */,
+				EB96F31C1ACC91F800A60C80 /* Images.xcassets */,
+				EB96F31E1ACC91F800A60C80 /* LaunchScreen.xib */,
+				EB96F3131ACC91F800A60C80 /* RottenMangos.xcdatamodeld */,
+				EB96F30C1ACC91F700A60C80 /* Supporting Files */,
+			);
+			path = RottenMangos;
+			sourceTree = "<group>";
+		};
+		EB96F30C1ACC91F700A60C80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB96F30D1ACC91F800A60C80 /* Info.plist */,
+				EB96F30E1ACC91F800A60C80 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB96F3281ACC91F800A60C80 /* RottenMangosTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB96F32B1ACC91F800A60C80 /* RottenMangosTests.m */,
+				EB96F3291ACC91F800A60C80 /* Supporting Files */,
+			);
+			path = RottenMangosTests;
+			sourceTree = "<group>";
+		};
+		EB96F3291ACC91F800A60C80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB96F32A1ACC91F800A60C80 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB96F3081ACC91F700A60C80 /* RottenMangos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB96F32F1ACC91F800A60C80 /* Build configuration list for PBXNativeTarget "RottenMangos" */;
+			buildPhases = (
+				EB96F3051ACC91F700A60C80 /* Sources */,
+				EB96F3061ACC91F700A60C80 /* Frameworks */,
+				EB96F3071ACC91F700A60C80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RottenMangos;
+			productName = RottenMangos;
+			productReference = EB96F3091ACC91F700A60C80 /* RottenMangos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB96F3241ACC91F800A60C80 /* RottenMangosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB96F3321ACC91F800A60C80 /* Build configuration list for PBXNativeTarget "RottenMangosTests" */;
+			buildPhases = (
+				EB96F3211ACC91F800A60C80 /* Sources */,
+				EB96F3221ACC91F800A60C80 /* Frameworks */,
+				EB96F3231ACC91F800A60C80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB96F3271ACC91F800A60C80 /* PBXTargetDependency */,
+			);
+			name = RottenMangosTests;
+			productName = RottenMangosTests;
+			productReference = EB96F3251ACC91F800A60C80 /* RottenMangosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB96F3011ACC91F700A60C80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "98% Chimp";
+				TargetAttributes = {
+					EB96F3081ACC91F700A60C80 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					EB96F3241ACC91F800A60C80 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EB96F3081ACC91F700A60C80;
+					};
+				};
+			};
+			buildConfigurationList = EB96F3041ACC91F700A60C80 /* Build configuration list for PBXProject "RottenMangos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB96F3001ACC91F700A60C80;
+			productRefGroup = EB96F30A1ACC91F700A60C80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB96F3081ACC91F700A60C80 /* RottenMangos */,
+				EB96F3241ACC91F800A60C80 /* RottenMangosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB96F3071ACC91F700A60C80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB96F31B1ACC91F800A60C80 /* Main.storyboard in Resources */,
+				EB96F3201ACC91F800A60C80 /* LaunchScreen.xib in Resources */,
+				EB96F31D1ACC91F800A60C80 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB96F3231ACC91F800A60C80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB96F3051ACC91F700A60C80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB96F3121ACC91F800A60C80 /* AppDelegate.m in Sources */,
+				EB96F30F1ACC91F800A60C80 /* main.m in Sources */,
+				EB96F3181ACC91F800A60C80 /* ViewController.m in Sources */,
+				EB96F3151ACC91F800A60C80 /* RottenMangos.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB96F3211ACC91F800A60C80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB96F32C1ACC91F800A60C80 /* RottenMangosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB96F3271ACC91F800A60C80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB96F3081ACC91F700A60C80 /* RottenMangos */;
+			targetProxy = EB96F3261ACC91F800A60C80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB96F3191ACC91F800A60C80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB96F31A1ACC91F800A60C80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB96F31E1ACC91F800A60C80 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB96F31F1ACC91F800A60C80 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB96F32D1ACC91F800A60C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB96F32E1ACC91F800A60C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB96F3301ACC91F800A60C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RottenMangos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB96F3311ACC91F800A60C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RottenMangos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB96F3331ACC91F800A60C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RottenMangosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RottenMangos.app/RottenMangos";
+			};
+			name = Debug;
+		};
+		EB96F3341ACC91F800A60C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RottenMangosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RottenMangos.app/RottenMangos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB96F3041ACC91F700A60C80 /* Build configuration list for PBXProject "RottenMangos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB96F32D1ACC91F800A60C80 /* Debug */,
+				EB96F32E1ACC91F800A60C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB96F32F1ACC91F800A60C80 /* Build configuration list for PBXNativeTarget "RottenMangos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB96F3301ACC91F800A60C80 /* Debug */,
+				EB96F3311ACC91F800A60C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB96F3321ACC91F800A60C80 /* Build configuration list for PBXNativeTarget "RottenMangosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB96F3331ACC91F800A60C80 /* Debug */,
+				EB96F3341ACC91F800A60C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EB96F3131ACC91F800A60C80 /* RottenMangos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EB96F3141ACC91F800A60C80 /* RottenMangos.xcdatamodel */,
+			);
+			currentVersion = EB96F3141ACC91F800A60C80 /* RottenMangos.xcdatamodel */;
+			path = RottenMangos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EB96F3011ACC91F700A60C80 /* Project object */;
+}
