@@ -54,18 +54,25 @@ static NSString * const reuseIdentifier = @"Cell";
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - Navigation
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    return self.movies.count;
+}
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([[segue identifier] isEqualToString:@"ShowDetail"]) {
-        NSIndexPath *indexPath = [[self.collectionView indexPathsForSelectedItems] objectAtIndex:0];
-        Movie *selectedMovie = [Movie new];
-        selectedMovie = self.movies[indexPath.row];
-        MovieDetailViewController *movieDetail = (MovieDetailViewController *)[[segue destinationViewController] topViewController];
-        [movieDetail setDetailItem:selectedMovie];
-        movieDetail.navigationItem.leftBarButtonItem = self.splitViewController.displayModeButtonItem;
-        movieDetail.navigationItem.leftItemsSupplementBackButton = YES;
-    }
+- (MovieCollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    MovieCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
+    Movie *movie = [self.movies objectAtIndex:indexPath.item];
+
+    [self downloadImageWithURL:[movie thumbnailURL] completionBlock:^(BOOL succeeded, NSData *data) {
+        movie.image = [[UIImage alloc] initWithData:data];
+        if (succeeded) {
+            cell.imageView.image = movie.image;
+        }
+        else {
+            cell.imageView.image = [UIImage imageNamed:@"movie-75.png"];
+        }
+    }];
+    
+    return cell;
 }
 
 #pragma mark <UICollectionViewDataSource>
@@ -86,25 +93,20 @@ static NSString * const reuseIdentifier = @"Cell";
     }];
 }
 
-- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return self.movies.count;
+#pragma mark - Navigation
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([[segue identifier] isEqualToString:@"ShowDetail"]) {
+        NSIndexPath *indexPath = [[self.collectionView indexPathsForSelectedItems] objectAtIndex:0];
+        Movie *selectedMovie = [Movie new];
+        selectedMovie = self.movies[indexPath.row];
+        MovieDetailViewController *movieDetail = (MovieDetailViewController *)[[segue destinationViewController] topViewController];
+        [movieDetail setDetailItem:selectedMovie];
+    }
 }
 
-- (MovieCollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    MovieCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
-    Movie *movie = [self.movies objectAtIndex:indexPath.item];
-
-    [self downloadImageWithURL:[movie thumbnailURL] completionBlock:^(BOOL succeeded, NSData *data) {
-        movie.image = [[UIImage alloc] initWithData:data];
-        if (succeeded) {
-            cell.imageView.image = movie.image;
-        }
-        else {
-            cell.imageView.image = [UIImage imageNamed:@"movie-75.png"];
-        }
-    }];
-    
-    return cell;
+- (IBAction)unWindToCollectionView:(UIStoryboardSegue *)segue {
+    [self.collectionView reloadData];
 }
 
 #pragma mark <UICollectionViewDelegate>

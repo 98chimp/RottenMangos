@@ -37,7 +37,7 @@
     if (self.movie) {
         self.detailImageView.image = self.movie.image;
         self.detailTitleLabel.text = self.movie.title;
-        self.detailRatingLabel.text = [NSString stringWithFormat:@"%@", self.movie.rating];
+        self.detailRatingLabel.text = [NSString stringWithFormat:@"Rating: %@/5.0", self.movie.rating];
         self.detailSynopsisLabel.text = self.movie.synopsis;
     }
 }
