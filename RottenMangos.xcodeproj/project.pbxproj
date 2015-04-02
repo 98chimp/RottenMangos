@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB0CA8671ACCEE4E00F09E21 /* MovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0CA8661ACCEE4E00F09E21 /* MovieDetailViewController.m */; };
 		EB96F30F1ACC91F800A60C80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB96F30E1ACC91F800A60C80 /* main.m */; };
 		EB96F3121ACC91F800A60C80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB96F3111ACC91F800A60C80 /* AppDelegate.m */; };
 		EB96F3151ACC91F800A60C80 /* RottenMangos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB96F3131ACC91F800A60C80 /* RottenMangos.xcdatamodeld */; };
@@ -15,6 +16,10 @@
 		EB96F31D1ACC91F800A60C80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB96F31C1ACC91F800A60C80 /* Images.xcassets */; };
 		EB96F3201ACC91F800A60C80 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB96F31E1ACC91F800A60C80 /* LaunchScreen.xib */; };
 		EB96F32C1ACC91F800A60C80 /* RottenMangosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB96F32B1ACC91F800A60C80 /* RottenMangosTests.m */; };
+		EB96F3371ACC932400A60C80 /* MoviesCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB96F3361ACC932400A60C80 /* MoviesCollectionViewController.m */; };
+		EB96F33A1ACC934900A60C80 /* MovieCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB96F3391ACC934900A60C80 /* MovieCollectionViewCell.m */; };
+		EB96F33D1ACC935A00A60C80 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = EB96F33C1ACC935A00A60C80 /* Movie.m */; };
+		EB96F33F1ACCD57600A60C80 /* movie-75.png in Resources */ = {isa = PBXBuildFile; fileRef = EB96F33E1ACCD57600A60C80 /* movie-75.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB0CA8651ACCEE4E00F09E21 /* MovieDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDetailViewController.h; sourceTree = "<group>"; };
+		EB0CA8661ACCEE4E00F09E21 /* MovieDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDetailViewController.m; sourceTree = "<group>"; };
 		EB96F3091ACC91F700A60C80 /* RottenMangos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RottenMangos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB96F30D1ACC91F800A60C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB96F30E1ACC91F800A60C80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +49,13 @@
 		EB96F3251ACC91F800A60C80 /* RottenMangosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RottenMangosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB96F32A1ACC91F800A60C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB96F32B1ACC91F800A60C80 /* RottenMangosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RottenMangosTests.m; sourceTree = "<group>"; };
+		EB96F3351ACC932400A60C80 /* MoviesCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviesCollectionViewController.h; sourceTree = "<group>"; };
+		EB96F3361ACC932400A60C80 /* MoviesCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesCollectionViewController.m; sourceTree = "<group>"; };
+		EB96F3381ACC934900A60C80 /* MovieCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCollectionViewCell.h; sourceTree = "<group>"; };
+		EB96F3391ACC934900A60C80 /* MovieCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCollectionViewCell.m; sourceTree = "<group>"; };
+		EB96F33B1ACC935A00A60C80 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		EB96F33C1ACC935A00A60C80 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		EB96F33E1ACCD57600A60C80 /* movie-75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movie-75.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +101,15 @@
 				EB96F3111ACC91F800A60C80 /* AppDelegate.m */,
 				EB96F3161ACC91F800A60C80 /* ViewController.h */,
 				EB96F3171ACC91F800A60C80 /* ViewController.m */,
+				EB96F3351ACC932400A60C80 /* MoviesCollectionViewController.h */,
+				EB96F3361ACC932400A60C80 /* MoviesCollectionViewController.m */,
+				EB96F3381ACC934900A60C80 /* MovieCollectionViewCell.h */,
+				EB96F3391ACC934900A60C80 /* MovieCollectionViewCell.m */,
+				EB0CA8651ACCEE4E00F09E21 /* MovieDetailViewController.h */,
+				EB0CA8661ACCEE4E00F09E21 /* MovieDetailViewController.m */,
+				EB96F33B1ACC935A00A60C80 /* Movie.h */,
+				EB96F33C1ACC935A00A60C80 /* Movie.m */,
+				EB96F33E1ACCD57600A60C80 /* movie-75.png */,
 				EB96F3191ACC91F800A60C80 /* Main.storyboard */,
 				EB96F31C1ACC91F800A60C80 /* Images.xcassets */,
 				EB96F31E1ACC91F800A60C80 /* LaunchScreen.xib */,
@@ -202,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB96F33F1ACCD57600A60C80 /* movie-75.png in Resources */,
 				EB96F31B1ACC91F800A60C80 /* Main.storyboard in Resources */,
 				EB96F3201ACC91F800A60C80 /* LaunchScreen.xib in Resources */,
 				EB96F31D1ACC91F800A60C80 /* Images.xcassets in Resources */,
@@ -222,10 +246,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB0CA8671ACCEE4E00F09E21 /* MovieDetailViewController.m in Sources */,
 				EB96F3121ACC91F800A60C80 /* AppDelegate.m in Sources */,
 				EB96F30F1ACC91F800A60C80 /* main.m in Sources */,
+				EB96F33D1ACC935A00A60C80 /* Movie.m in Sources */,
 				EB96F3181ACC91F800A60C80 /* ViewController.m in Sources */,
+				EB96F3371ACC932400A60C80 /* MoviesCollectionViewController.m in Sources */,
 				EB96F3151ACC91F800A60C80 /* RottenMangos.xcdatamodeld in Sources */,
+				EB96F33A1ACC934900A60C80 /* MovieCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +446,7 @@
 				EB96F3311ACC91F800A60C80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB96F3321ACC91F800A60C80 /* Build configuration list for PBXNativeTarget "RottenMangosTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +455,7 @@
 				EB96F3341ACC91F800A60C80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
