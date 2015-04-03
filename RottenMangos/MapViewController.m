@@ -61,15 +61,9 @@
     startingRegion.span.latitudeDelta = 0.25;
     startingRegion.span.longitudeDelta = 0.25;
     
-//    MKPointAnnotation *theatreMarker = [[MKPointAnnotation alloc] init];
     for (Theatre *theatre in self.locations) {
-//        CLLocationCoordinate2D theatreLocation;
-//        theatreLocation.latitude = theatre.latitude;
-//        theatreLocation.longitude = theatre.longitude;
         [self.mapView addAnnotation:theatre];
-        NSLog(@"%@\n", theatre.name);
     }
-    
     [self.mapView setRegion:startingRegion];
     
 }
@@ -88,20 +82,8 @@ didChangeAuthorizationStatus:(CLAuthorizationStatus)status{
     self.locationManager = [[CLLocationManager alloc] init];
     self.locationManager.delegate = self;
     self.locationManager.desiredAccuracy = 1000;
-    
     [self.locationManager startUpdatingLocation];
 }
-
-//- (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
-//    [self.locationManager stopUpdatingLocation];
-//    
-//    CLLocation *location = [locations firstObject];
-//    CLGeocoder *geoCoder = [[CLGeocoder alloc] init];
-//    [geoCoder reverseGeocodeLocation:location completionHandler:^(NSArray *placemarks, NSError *error) {
-//        CLPlacemark *placemark = [placemarks firstObject];
-//        self.location = placemark.name;
-//    }];
-//}
 
 - (NSString *)deviceLocation {
     return [NSString stringWithFormat:@"latitude: %f longitude: %f", self.locationManager.location.coordinate.latitude, self.locationManager.location.coordinate.longitude];
@@ -126,18 +108,13 @@ didChangeAuthorizationStatus:(CLAuthorizationStatus)status{
     }
     
     pinView.canShowCallout = YES;
-//    pinView.pinColor = MKPinAnnotationColorGreen;
     pinView.image = [UIImage imageNamed:@"cinema"];
-    //pinView.calloutOffset = CGPointMake(-7, 0);
-
-    NSLog(@"%@", pinView);
 
     return pinView;
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
