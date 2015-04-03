@@ -11,7 +11,7 @@
 		EB96F30F1ACC91F800A60C80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB96F30E1ACC91F800A60C80 /* main.m */; };
 		EB96F3121ACC91F800A60C80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB96F3111ACC91F800A60C80 /* AppDelegate.m */; };
 		EB96F3151ACC91F800A60C80 /* RottenMangos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB96F3131ACC91F800A60C80 /* RottenMangos.xcdatamodeld */; };
-		EB96F3181ACC91F800A60C80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB96F3171ACC91F800A60C80 /* ViewController.m */; };
+		EB96F3181ACC91F800A60C80 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB96F3171ACC91F800A60C80 /* MapViewController.m */; };
 		EB96F31B1ACC91F800A60C80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB96F3191ACC91F800A60C80 /* Main.storyboard */; };
 		EB96F31D1ACC91F800A60C80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB96F31C1ACC91F800A60C80 /* Images.xcassets */; };
 		EB96F3201ACC91F800A60C80 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB96F31E1ACC91F800A60C80 /* LaunchScreen.xib */; };
@@ -20,6 +20,12 @@
 		EB96F33A1ACC934900A60C80 /* MovieCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB96F3391ACC934900A60C80 /* MovieCollectionViewCell.m */; };
 		EB96F33D1ACC935A00A60C80 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = EB96F33C1ACC935A00A60C80 /* Movie.m */; };
 		EB96F33F1ACCD57600A60C80 /* movie-75.png in Resources */ = {isa = PBXBuildFile; fileRef = EB96F33E1ACCD57600A60C80 /* movie-75.png */; };
+		EBADD0581ACF33A5004BF10B /* cinema.png in Resources */ = {isa = PBXBuildFile; fileRef = EBADD0571ACF33A5004BF10B /* cinema.png */; };
+		EBBA7EB91ACDF80B00C9B6BB /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = EBBA7EB81ACDF80B00C9B6BB /* location.png */; };
+		EBBA7EBB1ACDF86200C9B6BB /* location-50.png in Resources */ = {isa = PBXBuildFile; fileRef = EBBA7EBA1ACDF86200C9B6BB /* location-50.png */; };
+		EBFBCB631ACDCAC900E439FA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBFBCB621ACDCAC900E439FA /* MapKit.framework */; };
+		EBFBCB651ACDCAD100E439FA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBFBCB641ACDCAD100E439FA /* CoreLocation.framework */; };
+		EBFBCB681ACDD27A00E439FA /* Theatre.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFBCB671ACDD27A00E439FA /* Theatre.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +47,8 @@
 		EB96F3101ACC91F800A60C80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EB96F3111ACC91F800A60C80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EB96F3141ACC91F800A60C80 /* RottenMangos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RottenMangos.xcdatamodel; sourceTree = "<group>"; };
-		EB96F3161ACC91F800A60C80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EB96F3171ACC91F800A60C80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB96F3161ACC91F800A60C80 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		EB96F3171ACC91F800A60C80 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		EB96F31A1ACC91F800A60C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB96F31C1ACC91F800A60C80 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EB96F31F1ACC91F800A60C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -56,6 +62,13 @@
 		EB96F33B1ACC935A00A60C80 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
 		EB96F33C1ACC935A00A60C80 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
 		EB96F33E1ACCD57600A60C80 /* movie-75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movie-75.png"; sourceTree = "<group>"; };
+		EBADD0571ACF33A5004BF10B /* cinema.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cinema.png; path = ../../../../../../../../Desktop/cinema.png; sourceTree = "<group>"; };
+		EBBA7EB81ACDF80B00C9B6BB /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location.png; path = ../../../../../../../../../../var/folders/8v/y6xjkrcw8xj1lv0059bcybbr0000gn/T/PNG/32/Maps/location.png; sourceTree = "<group>"; };
+		EBBA7EBA1ACDF86200C9B6BB /* location-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "location-50.png"; path = "../../../../../../../../../../var/folders/8v/y6xjkrcw8xj1lv0059bcybbr0000gn/T/PNG/50/Maps/location-50.png"; sourceTree = "<group>"; };
+		EBFBCB621ACDCAC900E439FA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EBFBCB641ACDCAD100E439FA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EBFBCB661ACDD27A00E439FA /* Theatre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Theatre.h; sourceTree = "<group>"; };
+		EBFBCB671ACDD27A00E439FA /* Theatre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Theatre.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBFBCB651ACDCAD100E439FA /* CoreLocation.framework in Frameworks */,
+				EBFBCB631ACDCAC900E439FA /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +94,8 @@
 		EB96F3001ACC91F700A60C80 = {
 			isa = PBXGroup;
 			children = (
+				EBFBCB641ACDCAD100E439FA /* CoreLocation.framework */,
+				EBFBCB621ACDCAC900E439FA /* MapKit.framework */,
 				EB96F30B1ACC91F700A60C80 /* RottenMangos */,
 				EB96F3281ACC91F800A60C80 /* RottenMangosTests */,
 				EB96F30A1ACC91F700A60C80 /* Products */,
@@ -99,8 +116,6 @@
 			children = (
 				EB96F3101ACC91F800A60C80 /* AppDelegate.h */,
 				EB96F3111ACC91F800A60C80 /* AppDelegate.m */,
-				EB96F3161ACC91F800A60C80 /* ViewController.h */,
-				EB96F3171ACC91F800A60C80 /* ViewController.m */,
 				EB96F3351ACC932400A60C80 /* MoviesCollectionViewController.h */,
 				EB96F3361ACC932400A60C80 /* MoviesCollectionViewController.m */,
 				EB96F3381ACC934900A60C80 /* MovieCollectionViewCell.h */,
@@ -109,9 +124,13 @@
 				EB0CA8661ACCEE4E00F09E21 /* MovieDetailViewController.m */,
 				EB96F33B1ACC935A00A60C80 /* Movie.h */,
 				EB96F33C1ACC935A00A60C80 /* Movie.m */,
-				EB96F33E1ACCD57600A60C80 /* movie-75.png */,
+				EBFBCB661ACDD27A00E439FA /* Theatre.h */,
+				EBFBCB671ACDD27A00E439FA /* Theatre.m */,
+				EB96F3161ACC91F800A60C80 /* MapViewController.h */,
+				EB96F3171ACC91F800A60C80 /* MapViewController.m */,
 				EB96F3191ACC91F800A60C80 /* Main.storyboard */,
 				EB96F31C1ACC91F800A60C80 /* Images.xcassets */,
+				EBFBCB5D1ACDC8A700E439FA /* images */,
 				EB96F31E1ACC91F800A60C80 /* LaunchScreen.xib */,
 				EB96F3131ACC91F800A60C80 /* RottenMangos.xcdatamodeld */,
 				EB96F30C1ACC91F700A60C80 /* Supporting Files */,
@@ -143,6 +162,17 @@
 				EB96F32A1ACC91F800A60C80 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBFBCB5D1ACDC8A700E439FA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EBADD0571ACF33A5004BF10B /* cinema.png */,
+				EBBA7EBA1ACDF86200C9B6BB /* location-50.png */,
+				EBBA7EB81ACDF80B00C9B6BB /* location.png */,
+				EB96F33E1ACCD57600A60C80 /* movie-75.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,7 +256,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB96F33F1ACCD57600A60C80 /* movie-75.png in Resources */,
+				EBBA7EBB1ACDF86200C9B6BB /* location-50.png in Resources */,
 				EB96F31B1ACC91F800A60C80 /* Main.storyboard in Resources */,
+				EBADD0581ACF33A5004BF10B /* cinema.png in Resources */,
+				EBBA7EB91ACDF80B00C9B6BB /* location.png in Resources */,
 				EB96F3201ACC91F800A60C80 /* LaunchScreen.xib in Resources */,
 				EB96F31D1ACC91F800A60C80 /* Images.xcassets in Resources */,
 			);
@@ -250,8 +283,9 @@
 				EB96F3121ACC91F800A60C80 /* AppDelegate.m in Sources */,
 				EB96F30F1ACC91F800A60C80 /* main.m in Sources */,
 				EB96F33D1ACC935A00A60C80 /* Movie.m in Sources */,
-				EB96F3181ACC91F800A60C80 /* ViewController.m in Sources */,
+				EB96F3181ACC91F800A60C80 /* MapViewController.m in Sources */,
 				EB96F3371ACC932400A60C80 /* MoviesCollectionViewController.m in Sources */,
+				EBFBCB681ACDD27A00E439FA /* Theatre.m in Sources */,
 				EB96F3151ACC91F800A60C80 /* RottenMangos.xcdatamodeld in Sources */,
 				EB96F33A1ACC934900A60C80 /* MovieCollectionViewCell.m in Sources */,
 			);

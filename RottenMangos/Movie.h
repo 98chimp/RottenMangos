@@ -22,6 +22,6 @@
 + (id) movieWithTitle:(NSString *)title;
 
 - (NSURL *) thumbnailURL;
-- (NSString *) formattedDate;
+//- (NSString *) formattedDate;
 
 @end

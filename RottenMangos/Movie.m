@@ -10,7 +10,8 @@
 
 @implementation Movie
 
-- (id) initWithTitle:(NSString *)title {
+- (id) initWithTitle:(NSString *)title
+{
     self = [super init];
     
     if (self) {
@@ -20,11 +21,13 @@
     return self;
 }
 
-+ (id) movieWithTitle:(NSString *)title {
++ (id) movieWithTitle:(NSString *)title
+{
     return [[self alloc] initWithTitle:title];
 }
 
-- (NSURL *) thumbnailURL {
+- (NSURL *) thumbnailURL
+{
     return [NSURL URLWithString:self.thumbnail];
 }
 
