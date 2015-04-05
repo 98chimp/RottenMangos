@@ -2,26 +2,20 @@
 //  Movie.h
 //  RottenMangos
 //
-//  Created by Shahin on 2015-04-01.
+//  Created by Shahin on 2015-04-03.
 //  Copyright (c) 2015 98% Chimp. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
 
-@interface Movie : NSObject
 
-@property (strong, nonatomic) NSString *title;
-@property (strong, nonatomic) NSString *synopsis;
-@property (strong, nonatomic) NSString *thumbnail;
-@property (strong, nonatomic) NSURL *url;
-@property (strong, nonatomic) NSString *rating;
-@property (strong, nonatomic) UIImage *image;
+@interface Movie : NSManagedObject
 
-- (id) initWithTitle:(NSString *)title;
-+ (id) movieWithTitle:(NSString *)title;
-
-- (NSURL *) thumbnailURL;
-//- (NSString *) formattedDate;
+@property (nonatomic, retain) NSString * title;
+@property (nonatomic, retain) NSDecimalNumber * rating;
+@property (nonatomic, retain) NSString * synopsis;
+@property (nonatomic, retain) NSString * thumbnail;
+@property (nonatomic, retain) NSData * image;
 
 @end

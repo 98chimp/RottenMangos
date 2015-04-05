@@ -18,14 +18,16 @@
 		EB96F32C1ACC91F800A60C80 /* RottenMangosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB96F32B1ACC91F800A60C80 /* RottenMangosTests.m */; };
 		EB96F3371ACC932400A60C80 /* MoviesCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB96F3361ACC932400A60C80 /* MoviesCollectionViewController.m */; };
 		EB96F33A1ACC934900A60C80 /* MovieCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB96F3391ACC934900A60C80 /* MovieCollectionViewCell.m */; };
-		EB96F33D1ACC935A00A60C80 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = EB96F33C1ACC935A00A60C80 /* Movie.m */; };
+		EB96F33D1ACC935A00A60C80 /* Movie1.m in Sources */ = {isa = PBXBuildFile; fileRef = EB96F33C1ACC935A00A60C80 /* Movie1.m */; };
 		EB96F33F1ACCD57600A60C80 /* movie-75.png in Resources */ = {isa = PBXBuildFile; fileRef = EB96F33E1ACCD57600A60C80 /* movie-75.png */; };
 		EBADD0581ACF33A5004BF10B /* cinema.png in Resources */ = {isa = PBXBuildFile; fileRef = EBADD0571ACF33A5004BF10B /* cinema.png */; };
+		EBADD05B1ACF4300004BF10B /* Theatre.m in Sources */ = {isa = PBXBuildFile; fileRef = EBADD05A1ACF4300004BF10B /* Theatre.m */; };
+		EBADD05E1ACF4301004BF10B /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = EBADD05D1ACF4301004BF10B /* Movie.m */; };
 		EBBA7EB91ACDF80B00C9B6BB /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = EBBA7EB81ACDF80B00C9B6BB /* location.png */; };
 		EBBA7EBB1ACDF86200C9B6BB /* location-50.png in Resources */ = {isa = PBXBuildFile; fileRef = EBBA7EBA1ACDF86200C9B6BB /* location-50.png */; };
 		EBFBCB631ACDCAC900E439FA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBFBCB621ACDCAC900E439FA /* MapKit.framework */; };
 		EBFBCB651ACDCAD100E439FA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBFBCB641ACDCAD100E439FA /* CoreLocation.framework */; };
-		EBFBCB681ACDD27A00E439FA /* Theatre.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFBCB671ACDD27A00E439FA /* Theatre.m */; };
+		EBFBCB681ACDD27A00E439FA /* Theatre1.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFBCB671ACDD27A00E439FA /* Theatre1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,16 +61,20 @@
 		EB96F3361ACC932400A60C80 /* MoviesCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesCollectionViewController.m; sourceTree = "<group>"; };
 		EB96F3381ACC934900A60C80 /* MovieCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCollectionViewCell.h; sourceTree = "<group>"; };
 		EB96F3391ACC934900A60C80 /* MovieCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCollectionViewCell.m; sourceTree = "<group>"; };
-		EB96F33B1ACC935A00A60C80 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
-		EB96F33C1ACC935A00A60C80 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		EB96F33B1ACC935A00A60C80 /* Movie1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie1.h; sourceTree = "<group>"; };
+		EB96F33C1ACC935A00A60C80 /* Movie1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie1.m; sourceTree = "<group>"; };
 		EB96F33E1ACCD57600A60C80 /* movie-75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movie-75.png"; sourceTree = "<group>"; };
 		EBADD0571ACF33A5004BF10B /* cinema.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cinema.png; path = ../../../../../../../../Desktop/cinema.png; sourceTree = "<group>"; };
+		EBADD0591ACF4300004BF10B /* Theatre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Theatre.h; sourceTree = "<group>"; };
+		EBADD05A1ACF4300004BF10B /* Theatre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Theatre.m; sourceTree = "<group>"; };
+		EBADD05C1ACF4301004BF10B /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		EBADD05D1ACF4301004BF10B /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
 		EBBA7EB81ACDF80B00C9B6BB /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location.png; path = ../../../../../../../../../../var/folders/8v/y6xjkrcw8xj1lv0059bcybbr0000gn/T/PNG/32/Maps/location.png; sourceTree = "<group>"; };
 		EBBA7EBA1ACDF86200C9B6BB /* location-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "location-50.png"; path = "../../../../../../../../../../var/folders/8v/y6xjkrcw8xj1lv0059bcybbr0000gn/T/PNG/50/Maps/location-50.png"; sourceTree = "<group>"; };
 		EBFBCB621ACDCAC900E439FA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		EBFBCB641ACDCAD100E439FA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		EBFBCB661ACDD27A00E439FA /* Theatre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Theatre.h; sourceTree = "<group>"; };
-		EBFBCB671ACDD27A00E439FA /* Theatre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Theatre.m; sourceTree = "<group>"; };
+		EBFBCB661ACDD27A00E439FA /* Theatre1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Theatre1.h; sourceTree = "<group>"; };
+		EBFBCB671ACDD27A00E439FA /* Theatre1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Theatre1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,10 +128,10 @@
 				EB96F3391ACC934900A60C80 /* MovieCollectionViewCell.m */,
 				EB0CA8651ACCEE4E00F09E21 /* MovieDetailViewController.h */,
 				EB0CA8661ACCEE4E00F09E21 /* MovieDetailViewController.m */,
-				EB96F33B1ACC935A00A60C80 /* Movie.h */,
-				EB96F33C1ACC935A00A60C80 /* Movie.m */,
-				EBFBCB661ACDD27A00E439FA /* Theatre.h */,
-				EBFBCB671ACDD27A00E439FA /* Theatre.m */,
+				EB96F33B1ACC935A00A60C80 /* Movie1.h */,
+				EB96F33C1ACC935A00A60C80 /* Movie1.m */,
+				EBFBCB661ACDD27A00E439FA /* Theatre1.h */,
+				EBFBCB671ACDD27A00E439FA /* Theatre1.m */,
 				EB96F3161ACC91F800A60C80 /* MapViewController.h */,
 				EB96F3171ACC91F800A60C80 /* MapViewController.m */,
 				EB96F3191ACC91F800A60C80 /* Main.storyboard */,
@@ -133,6 +139,10 @@
 				EBFBCB5D1ACDC8A700E439FA /* images */,
 				EB96F31E1ACC91F800A60C80 /* LaunchScreen.xib */,
 				EB96F3131ACC91F800A60C80 /* RottenMangos.xcdatamodeld */,
+				EBADD05C1ACF4301004BF10B /* Movie.h */,
+				EBADD05D1ACF4301004BF10B /* Movie.m */,
+				EBADD0591ACF4300004BF10B /* Theatre.h */,
+				EBADD05A1ACF4300004BF10B /* Theatre.m */,
 				EB96F30C1ACC91F700A60C80 /* Supporting Files */,
 			);
 			path = RottenMangos;
@@ -279,13 +289,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBADD05E1ACF4301004BF10B /* Movie.m in Sources */,
 				EB0CA8671ACCEE4E00F09E21 /* MovieDetailViewController.m in Sources */,
 				EB96F3121ACC91F800A60C80 /* AppDelegate.m in Sources */,
 				EB96F30F1ACC91F800A60C80 /* main.m in Sources */,
-				EB96F33D1ACC935A00A60C80 /* Movie.m in Sources */,
+				EB96F33D1ACC935A00A60C80 /* Movie1.m in Sources */,
 				EB96F3181ACC91F800A60C80 /* MapViewController.m in Sources */,
+				EBADD05B1ACF4300004BF10B /* Theatre.m in Sources */,
 				EB96F3371ACC932400A60C80 /* MoviesCollectionViewController.m in Sources */,
-				EBFBCB681ACDD27A00E439FA /* Theatre.m in Sources */,
+				EBFBCB681ACDD27A00E439FA /* Theatre1.m in Sources */,
 				EB96F3151ACC91F800A60C80 /* RottenMangos.xcdatamodeld in Sources */,
 				EB96F33A1ACC934900A60C80 /* MovieCollectionViewCell.m in Sources */,
 			);
